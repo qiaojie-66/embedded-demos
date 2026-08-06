@@ -1,0 +1,36 @@
+# ===================== 通用 =====================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*~
+
+# ===================== ESP-IDF =====================
+build/
+sdkconfig
+sdkconfig.old
+managed_components/
+*.bin
+*.elf
+*.map
+compile_commands.json
+
+# ===================== STM32 =====================
+**/Debug/
+**/Release/
+*.o
+*.axf
+*.map
+
+# ===================== Qt =====================
+**/build*/
+**/Makefile
+**/ui_*.h
+**/moc_*.cpp
+**/qrc_*.cpp
+*.user
+
+# ===================== IDE =====================
+.idea/
+.vscode/
+*.code-workspace
