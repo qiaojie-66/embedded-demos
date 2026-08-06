@@ -15,7 +15,7 @@ embedded-demos/
 ## 项目列表
 
 ### esp32
-- `demo03_ws2812/` - GPIO48 驱动 WS2812 灯珠
+- `ws2812_demo/` - GPIO48 驱动 WS2812 灯珠（RMT 硬件驱动）
 
 ### stm32
 - (待添加)
